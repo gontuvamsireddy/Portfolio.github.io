@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>project1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #1fd09b;
+        }
+        h1, h2, h3 {
+            margin: 0;
+        }
+        .container {
+            
+            margin: 0 auto;
+            padding: 50px;
+            background-color:#d4efee;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <marquee behaviour="alternate"><img src="flower.png" width="60px" height="60px"><font face="Timesnewroman" size="30" color="red"><b>Welc<span>&#128525;</span>me to my world</b></font><img src="flower.png" width="60px" height="60px"></marquee>
+        <img src="photo.jpg" alt="image not found" width="200" height="250">
+        <h1>Gontu Vamsi Krishna Reddy</h1>
+        <p> Java Full stack Web Developer</p>
+        <a href="https://www.linkedin.com/in/vamsi-krishna-reddy-gontu-3a8274248/" target="new">Linkedin</a>&nbsp; &nbsp; &nbsp;
+        <a href="https://github.com/gontuvamsireddy" target="new">Github</a>&nbsp; &nbsp; &nbsp;
+        <a href="https://www.hackerrank.com/vamsi36560?hr_r=1" target="new">Hacker Rank</a><br>
+        <a href="#A">About Me</a>&nbsp; &nbsp; &nbsp;
+        <a href="#B">Education</a>&nbsp; &nbsp; &nbsp;
+        <a href="#C">Skills</a>&nbsp; &nbsp; &nbsp;
+        <a href="#D">Certifications</a>&nbsp; &nbsp; &nbsp;
+        <a href="#E">Contact</a>&nbsp; &nbsp; &nbsp;
+        <a href="#form">Course Registration</a>
+        
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2 id="A"><img src="about.png" width="40px" height="30px">About Me</h2>
+            <p>
+                I am a passionate web developer with a strong foundation in HTML and CSS.
+                I enjoy creating interactive and user-friendly websites that leave a lasting impression.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 id="B"><img src="edu.png" width="40px" height="30px">Education</h2>
+            <p>
+                <strong>Sir.C.R.REDDY COLLEGE OF ENGINEERING</strong><br>
+                Bachelor of Technology in Mechanical Engineering<br>
+                Graduation Year: 2023<br>
+                <strong>E.S.C GOVERNMENT POLYTECHNIC COLLEGE</strong><br>
+                Diploma in Mechanical Engineering<br>
+                Diploma completed year: 2020<br>
+                <strong>Sri Sai Concept School</strong><br>
+                10<sup>th</sup>class<br>
+                10<sup>th</sup>class completed year :2017
+
+
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 id="C"><img src="skills.png"  width="30px" height="30px">Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>Core Java</li>
+                <li>Python</li>
+                <li>Responsive Web Design</li>
+                <li>Version Control (Git)</li>
+                <li>Problem Solving</li>
+                <li>My sql</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 id="D"><img src="certificates.png" width="30px" height="30px" >Certifications</h2>
+            <ol>
+                <li>Certification on Ai Guvi Network,iit mumbai</li>
+                <li>Certification on Virtual Developer Experience Programme</li>
+                <li>Certification on Python Programming</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2 id="E"><img src="contact.png" width="30px" height="30px">Contact</h2>
+            <p>Email: vamsi36560@gmail.com</p>
+            <p>Phone: 8519803744</p>
+        </div>
+        <div class="section">
+        <h1 id="form"><img src="registration.png" width="30px" height="30px" >Course Registration Form</h1>
+        <form action="C:\Users\vamsi\OneDrive\Desktop\server.txt">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <table>
+                    <tr>
+                        <td><label>FirstName</label> </td>
+                        <td><input type="text" name="Name" placeholder="Ex:vamsi" size="15" maxlength="10"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Surname</label></td>
+                        <td><input type="text" name="Surname" placeholder="Ex:Gontu"size="15"></td>
+                    </tr>
+                    <tr>
+                        <td><label>MobileNumber</label></td>
+                        <td><input type="tel" name="phonenumber" placeholder="Ex851-980-3744"size="15"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="email" name="email"placeholder="Ex:vamsi36560@gmail.com" size="15">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>password</label></td>
+                        <td><input type="password" name="password"size="15" placeholder="min 5 characters"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Confirmpassword</label></td>
+                        <td><input type="password" name="Confirmpassword"size="15" placeholder="min 5 characters"></td>
+                    </tr>
+                    <tr>
+                        <td><label>DOB</label></td>
+                        <td><input type="date" name="dateofbirth"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label>Gender</label></td><td><input type="radio"name="Gender" value="M">Male<input type="radio" name="Gender" value="F">Female<input type="radio" name="Gender" value="C">custom</td>
+                    </tr>
+                    
+                    <tr><td><label>Select Country</label></td>
+                        <td><select name="country">
+                            <option value="India">India</option>
+                            <option value="china">China</option>
+                            <option value="usa">Usa</option>
+                            <option value="uk">Uk</option>
+                            <option value="pakistan">Pakistan</option>
+                            <option value="Russia">Russia</option>
+                            </select></td></tr>   
+                    <tr><td><label>Upload picture</label></td><td><input type="file" name="pic"></td></tr>
+                    <tr><td><input type="reset"></td></tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Course Details</legend>
+                <label>Select Course</label>
+                <select name="course">
+                    <option value="html">html</option>
+                    <option value="java">java</option>
+                    <option value="python">python</option>
+                    <option value="css">css</option>
+                    <option value="sql">sql</option>
+                </select><br>
+                <label>DelivaryMode</label><br>
+                <input type="checkbox" name="mode1">Online <br>
+                <input type="checkbox" name="mode2">Offline<br>
+                <label>Comments</label><br>
+                <textarea rows="5"cols="20"></textarea><br>
+            </fieldset>
+            <input type="submit">
+        </form>
+        </div>
+    </div>
+</body>
+</html>
